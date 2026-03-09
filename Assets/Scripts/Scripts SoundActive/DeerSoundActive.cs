@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Activarsonido : MonoBehaviour
+public class DeerSoundActive : MonoBehaviour
 {
     public GameObject post;
     public GameObject post1;
@@ -10,16 +10,16 @@ public class Activarsonido : MonoBehaviour
     {
         if (other.tag == "Player")
         {
-            AudioManager.Instance.Play3D("0", post.transform.position);
+            AudioManager.Instance.Play3D("5", post.transform.position);
             //AudioManager.Instance.Play2D("");
         }
     }
     private void OnTriggerExit(Collider other)
     {
-        //if (other.tag == "")
-        //{
-        //    AudioManager.Instance.Play3D("0", post1.transform.position);
-        //    //AudioManager.Instance.Play2D("Salir");
-        //}
+        if (other.tag == "Player")
+        {
+            AudioManager.Instance.Play3D("5", post1.transform.position);
+            //AudioManager.Instance.Play2D("Salir");
+        }
     }
 }

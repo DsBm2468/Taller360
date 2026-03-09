@@ -12,8 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a9cafb02eed3ff54db8e640669e963e7, type: 3}
   m_Name: Ciervo corriendo
   m_EditorClassIdentifier: Assembly-CSharp::SoundData
-  id: 
-  clip: {fileID: 0}
-  volume: 1
-  loop: 0
-  spatialBlend: 0
+  id: 5
+  clip: {fileID: 8300000, guid: 81a5a2634aceb464b8ff0ee09545cd60, type: 3}
+  volume: 1000
+  loop: 1
+  spatialBlend: 1

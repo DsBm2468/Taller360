@@ -12,8 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a9cafb02eed3ff54db8e640669e963e7, type: 3}
   m_Name: Ladrido perro
   m_EditorClassIdentifier: Assembly-CSharp::SoundData
-  id: 
-  clip: {fileID: 0}
-  volume: 1
+  id: 1
+  clip: {fileID: 8300000, guid: 88d6c244ad34fed4c8d0a8dbf8a0f00d, type: 3}
+  volume: 50000
   loop: 0
-  spatialBlend: 0
+  spatialBlend: 1

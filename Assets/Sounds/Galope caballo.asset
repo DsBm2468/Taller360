@@ -12,8 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a9cafb02eed3ff54db8e640669e963e7, type: 3}
   m_Name: Galope caballo
   m_EditorClassIdentifier: Assembly-CSharp::SoundData
-  id: 
-  clip: {fileID: 0}
-  volume: 1
-  loop: 0
-  spatialBlend: 0
+  id: 2
+  clip: {fileID: 8300000, guid: 81d4387f4319d9d41bbb2500474bcb76, type: 3}
+  volume: 0.1
+  loop: 1
+  spatialBlend: 1

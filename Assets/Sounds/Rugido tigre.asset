@@ -12,8 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a9cafb02eed3ff54db8e640669e963e7, type: 3}
   m_Name: Rugido tigre
   m_EditorClassIdentifier: Assembly-CSharp::SoundData
-  id: 
-  clip: {fileID: 0}
-  volume: 1
+  id: 4
+  clip: {fileID: 8300000, guid: 63f32d581214ce340ba8533ded06fa59, type: 3}
+  volume: 50000
   loop: 0
-  spatialBlend: 0
+  spatialBlend: 1

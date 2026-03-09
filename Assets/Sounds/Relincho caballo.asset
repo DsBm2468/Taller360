@@ -12,8 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a9cafb02eed3ff54db8e640669e963e7, type: 3}
   m_Name: Relincho caballo
   m_EditorClassIdentifier: Assembly-CSharp::SoundData
-  id: 
-  clip: {fileID: 0}
-  volume: 1
+  id: 3
+  clip: {fileID: 8300000, guid: e41224fbbd6f0424fa24bdf62d1fe526, type: 3}
+  volume: 2000
   loop: 0
-  spatialBlend: 0
+  spatialBlend: 1
